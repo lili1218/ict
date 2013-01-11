@@ -4,10 +4,11 @@ title: ICT
 ---
 {% include JB/setup %}
 
-## All Documents
-<ul class="posts">
-   {% for post in site.posts %}
-     <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a></li>
-   {% endfor %}
-</ul>
+### Ubuntu
+
+[Ubuntu 10.04](/ubuntu/ubuntu-10.04)
+
+### Windows
+
+[Windows XP](/windows/winxp)
 
