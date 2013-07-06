@@ -1,17 +1,19 @@
 ---
+published: true
 layout: page
 title: ICT
 ---
+
 {% include JB/setup %}
 
-### Ubuntu
+# Ubuntu
 
-[KVM](/ubuntu/kvm)
-[Redmine 2.x](/ubuntu/redmine)
-[Ubuntu 10.04](/ubuntu/ubuntu-10.04)
-[Ubuntu 12.04](/ubuntu/ubuntu-12.04)
+## [Kernel](/ubuntu/kernel)
+## [KVM](/ubuntu/kvm)
+## [Redmine 2.x](/ubuntu/redmine)
+## [Ubuntu 10.04](/ubuntu/ubuntu-10.04)
+## [Ubuntu 12.04](/ubuntu/ubuntu-12.04)
 
-### Windows
+# Windows
 
-[Windows XP](/windows/winxp)
-
+## [Windows XP](/windows/winxp)
