@@ -8,6 +8,7 @@ title: ICT
 
 # Ubuntu
 
+## [Heroku](/ubuntu/heroku)
 ## [Kernel](/ubuntu/kernel)
 ## [KVM](/ubuntu/kvm)
 ## [Redmine 2.x](/ubuntu/redmine)
