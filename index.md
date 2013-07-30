@@ -8,6 +8,8 @@ title: ICT
 
 # Programming
 
+## [c](/programming/c)
+## [git](/programming/git)
 ## [Node.js](/programming/nodejs)
 
 # Ubuntu
