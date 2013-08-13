@@ -6,6 +6,10 @@ title: ICT
 
 {% include JB/setup %}
 
+# Network
+
+## [Network Performance](/network/performance)
+
 # Programming
 
 ## [c](/programming/c)
