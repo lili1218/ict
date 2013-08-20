@@ -1,5 +1,9 @@
 ---
 published: true
+layout: post
+category: programming
+tags: 
+  - kernel module
 ---
 
 # Kernel Module
