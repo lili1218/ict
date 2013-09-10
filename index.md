@@ -16,6 +16,7 @@ title: ICT
 ## [git](/programming/git)
 ## [Kernel Module](/programming/kernel-module)
 ## [Node.js](/programming/nodejs)
+## [Shell Script](/programming/shell-script)
 
 # Ubuntu
 
