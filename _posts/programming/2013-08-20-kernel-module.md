@@ -57,6 +57,34 @@ ps. this code is strange slow at ubuntu 10.04 (kernel 2.6.32)
     /* change source ip */
     iph->saddr = newip;
 
+## Memory Leak Detection
+
+### KEDR
+
+* download source 0.4.1 from [offical site](http://kedr.berlios.de)
+* install
+
+        tar jxvf kedr-0.4.1.tar.bz2
+        mkdir kedr-build
+        cd kedr-build
+        cmake ../kedr-0.4.1
+        make
+        sudo make install
+        
+* usage
+    * start kedr
+    
+            sudo kedr start my_module -f leak_check.conf
+            
+    * load kernel module
+    
+            sudo insmod my_module.ko
+            
+    * stop kedr and see result
+    
+            sudo kedr stop
+            dmesg
+
 ## Reference
 
 ## compile kernel
