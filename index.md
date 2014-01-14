@@ -39,4 +39,5 @@ title: ICT
 
 # Windows
 
+## [Windows 7](/windows/win7)
 ## [Windows XP](/windows/winxp)
