@@ -6,6 +6,10 @@ title: ICT
 
 {% include JB/setup %}
 
+# Database
+
+## [MySQL](/database/mysql)
+
 # Network
 
 ## [Wireshark](/network/wireshark)
