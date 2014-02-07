@@ -18,6 +18,7 @@ title: ICT
 # Programming
 
 ## [c](/programming/c)
+## [eclipse](/programming/eclipse)
 ## [git](/programming/git)
 ## [Kernel Module](/programming/kernel-module)
 ## [Node.js](/programming/nodejs)
