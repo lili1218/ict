@@ -10,6 +10,10 @@ title: ICT
 
 ## [MySQL](/database/mysql)
 
+# Linux
+
+## [Fedora](/linux/fedora)
+
 # Network
 
 ## [Wireshark](/network/wireshark)
@@ -20,6 +24,7 @@ title: ICT
 ## [c](/programming/c)
 ## [eclipse](/programming/eclipse)
 ## [git](/programming/git)
+## [java](/programming/java)
 ## [Kernel Module](/programming/kernel-module)
 ## [Node.js](/programming/nodejs)
 ## [pypy](/programming/pypy)
