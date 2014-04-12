@@ -1,5 +1,9 @@
 ---
-published: false
+published: true
+layout: post
+category: testing
+tags: 
+  - robot framework
 ---
 
 # Robot Framework
@@ -18,5 +22,4 @@ ref. [How to make multi-lines test setup or teardown in RobotFramework without c
 
     Test Case
       [Teardown]  Run Keywords  Teardown 1  arg1  arg2
-      ...         AND           Teardown 2  arg1  
-  
+      ...         AND           Teardown 2  arg1
