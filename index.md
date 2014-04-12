@@ -30,6 +30,10 @@ title: ICT
 ## [pypy](/programming/pypy)
 ## [Shell Script](/programming/shell-script)
 
+# Testing
+
+## [Robot Framework](/testing/robot-framework)
+
 # Ubuntu
 
 ## [Corkscrew](/ubuntu/corkscrew)
