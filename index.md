@@ -52,6 +52,8 @@ title: ICT
 
 ## [KVM](/ubuntu/kvm)
 
+## [LXDE](/ubuntu/lxde)
+
 ## [Redmine 2.x](/ubuntu/redmine)
 
 ## [Rescue](/ubuntu/rescue)
