@@ -1,5 +1,10 @@
 ---
-published: false
+published: true
+layout: post
+category: ubuntu
+tags: 
+  - ubuntu
+  - codeblocks
 ---
 
 # Code::Blocks
