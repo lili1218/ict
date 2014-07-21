@@ -34,3 +34,16 @@ To revert to a frestly installed state, you can:
 2. Delete (or move) the data folder (~/.config/sublime-text-2)
 3. Start Sublime Text 2
 
+### Samba Permission Problem
+ref. [samba and permissions](https://www.sublimetext.com/forum/viewtopic.php?f=3&t=7969)
+
+avoid file mode 0644 to 0755, add 'map archive = no' to smb.conf
+
+    [slash]
+    path = /
+    writeable = yes
+    map archive = no
+    force user = nick
+    force create mode = 644
+    create mask = 644
+    oplocks = no
