@@ -66,6 +66,8 @@ title: ICT
 
 ## [Ubuntu 12.04](/ubuntu/ubuntu-12.04)
 
+## [Ubuntu 14.04](/ubuntu/ubuntu-14.04)
+
 # Web
 
 ## [Github](/web/github)
