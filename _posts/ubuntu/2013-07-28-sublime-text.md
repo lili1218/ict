@@ -20,6 +20,19 @@ https://github.com/TCattd/sublime-text-bash-installer
 
     sudo bash st2install
 
+## Font
+ref. [在 Sublime Text 2/3 設定 Inconsolata 字型](http://akr.tw/2012/09/inconsolata-sublime-text-2/)
+
+Perferences → Settings – User
+
+	"font_face": "Inconsolata",
+    "font_size": 12
+
+### Source Code Pro
+ref. [Using Source Code Pro with Sublime Text 2 and Terminal](http://blogs.adobe.com/cantrell/archives/2012/10/using-source-code-pro-with-sublime-text-2.html)
+
+Download [SourceCodePro_FontsOnly-1.017.zip](http://sourceforge.net/projects/sourcecodepro.adobe/)
+
 ## Q&A
 
 ### Sublime Text 2.0.2 sidebar missing on ubuntu 10.04
