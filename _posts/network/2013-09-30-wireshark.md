@@ -24,6 +24,10 @@ tags:
 
         sudo apt-get install bison flex libgtk2.0-dev libglib2.0-dev libpcap-dev automake autoconf
 
+* wireshark 1.10+
+
+        sudo apt-get install libgtk3-dev
+
 ## Install
 
     sh autogen.sh
