@@ -60,6 +60,8 @@ title: ICT
 
 ## [Rescue](/ubuntu/rescue)
 
+## [Squid 3](/ubuntu/squid)
+
 ## [Sublime Text 2](/ubuntu/sublime-text)
 
 ## [Vim](/ubuntu/vim)
