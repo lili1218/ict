@@ -61,7 +61,7 @@ ps. this code is strange slow at ubuntu 10.04 (kernel 2.6.32)
 
 ### KEDR
 
-* download source 0.4.1 from [offical site](http://kedr.berlios.de)
+* download source 0.4.1 from [offical site](https://code.google.com/p/kedr/)
 * install
 
         tar jxvf kedr-0.4.1.tar.bz2
