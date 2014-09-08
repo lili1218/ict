@@ -58,6 +58,8 @@ title: ICT
 
 ## [LXDE](/ubuntu/lxde)
 
+## [MP3](/ubuntu/mp3)
+
 ## [Redmine 2.x](/ubuntu/redmine)
 
 ## [Rescue](/ubuntu/rescue)
