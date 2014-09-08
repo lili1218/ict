@@ -62,6 +62,8 @@ title: ICT
 
 ## [Rescue](/ubuntu/rescue)
 
+## [Samba](/ubuntu/samba)
+
 ## [Squid 3](/ubuntu/squid)
 
 ## [Sublime Text 2](/ubuntu/sublime-text)
