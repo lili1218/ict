@@ -11,7 +11,7 @@ title: ICT
   <input type="hidden" name="ie" value="utf-8" />
   <input type="hidden" name="hl" value="zh-CN" />
   <input name="q" type="text" size="40" />
-  <input type="submit" name="sa" value="搜索" />
+  <input type="submit" name="sa" value="搜尋" />
 </form>
 
 # Database
