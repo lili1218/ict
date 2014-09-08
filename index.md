@@ -32,6 +32,8 @@ title: ICT
 
 ## [Kernel Module](/programming/kernel-module)
 
+## [Kgdb](/programming/kgdb)
+
 ## [Node.js](/programming/nodejs)
 
 ## [pypy](/programming/pypy)
