@@ -78,6 +78,8 @@ title: ICT
 
 ## [Sublime Text 2](/ubuntu/sublime-text)
 
+## [Tmux](/ubuntu/tmux)
+
 ## [Vim](/ubuntu/vim)
 
 ## [Ubuntu 10.04](/ubuntu/ubuntu-10.04)
