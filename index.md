@@ -14,6 +14,10 @@ title: ICT
   <input type="submit" name="sa" value="搜尋" />
 </form>
 
+# CentOS
+
+## [CentOS-6](/centos/centos-6)
+
 # Database
 
 ## [MySQL](/database/mysql)
