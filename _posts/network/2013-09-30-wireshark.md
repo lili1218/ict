@@ -16,7 +16,7 @@ tags:
 
 ## Get Source
 
-    svn co http://anonsvn.wireshark.org/wireshark/trunk-1.8/ wireshark-1.8
+    git clone https://code.wireshark.org/review/wireshark
 
 ## Prepare
 
@@ -27,6 +27,7 @@ tags:
 * wireshark 1.10+
 
         sudo apt-get install libgtk3-dev
+        sudo apt-get install libgtk-3-dev qt-sdk
 
 ## Install
 
