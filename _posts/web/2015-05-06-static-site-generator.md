@@ -1,5 +1,9 @@
 ---
-published: false
+published: true
+layout: post
+category: web
+tags: 
+  - static site
 ---
 
 # Static Site Generator
