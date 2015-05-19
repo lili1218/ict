@@ -41,6 +41,19 @@ Use grep to find data block, and find inode from data block by **icheck**
     debugfs 1.42.9 (4-Feb-2014)
     debugfs:  icheck 25165824
 
+ref. [Can overwritten files be recovered?](http://unix.stackexchange.com/questions/149342/can-overwritten-files-be-recovered)
+
+In ref url, block size is 512, recently ext4 block size is 4096.
+
+    grep -a -b "text in the deleted file" /dev/sda1
+    13813610612:this is some text in the deleted file
+    
+    dd if=/dev/sda1 bs=512 count=1 skip=$(expr 13813610612 / 512)
+
+if file is large, data blocks of file could not be continuous and hard to recover. use filegrag (e2fsprogs) to get layout information.
+
+    filegrag -v testfile
+
 ## Ext4magic
 
 * [Official Site](http://ext4magic.sourceforge.net/ext4magic_en.html)
