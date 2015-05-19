@@ -16,8 +16,8 @@ first thing is to detach file system
     sudo unmount -l /dev/sda1
 
 ## debugfs
-ref. [Debug a file system](http://users.nccs.gov/~fwang2/linux/lk_debugfs.html)
-ref. [debugfs Command Examples](http://www.cs.montana.edu/courses/309/topics/4-disks/debugfs_example.html)
+* ref. [Debug a file system](http://users.nccs.gov/~fwang2/linux/lk_debugfs.html)
+* ref. [debugfs Command Examples](http://www.cs.montana.edu/courses/309/topics/4-disks/debugfs_example.html)
 
 Find inode of file
 
