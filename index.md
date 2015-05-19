@@ -4,6 +4,7 @@ layout: page
 title: ICT
 ---
 
+
 {% include JB/setup %}
 
 <form name="cse" id="searchbox" action="/search.html">
@@ -24,6 +25,7 @@ title: ICT
 
 # Linux
 
+## [Data Recovery](linux/data-recovery)
 ## [Fedora](/linux/fedora)
 
 # Network
