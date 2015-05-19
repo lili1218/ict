@@ -1,6 +1,13 @@
 ---
-published: false
+published: true
+layout: post
+category: linux
+tags: 
+  - recovery
+  - rescue
+  - ext4
 ---
+
 
 # Data Recovery
 
@@ -44,7 +51,3 @@ Use grep to find data block, and find inode from data block by **icheck**
 
 * [深入理解ext4（一）----extent區段](http://blog.csdn.net/sara4321/article/details/8609610)
 * [EXT4介紹與分析](http://blog.csdn.net/robinlovesnow/article/details/7567037)
-
-
-
-
