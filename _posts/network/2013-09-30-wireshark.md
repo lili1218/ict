@@ -8,6 +8,7 @@ tags:
   - packet
 ---
 
+
 # Wireshark
 
 ## Note
@@ -22,7 +23,7 @@ tags:
 
 * for Ubuntu
 
-        sudo apt-get install bison flex libgtk2.0-dev libglib2.0-dev libpcap-dev automake autoconf
+        sudo apt-get install bison flex libgtk2.0-dev libglib2.0-dev libpcap-dev automake autoconf libtool
 
 * wireshark 1.10+
 
