@@ -28,7 +28,9 @@ For Ubuntu
 Wireshark 1.10+
 
     sudo apt-get install libgtk3-dev
+
 or 
+
     sudo apt-get install libgtk-3-dev qt-sdk
 
 ## Install
