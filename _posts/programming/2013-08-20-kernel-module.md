@@ -6,6 +6,7 @@ tags:
   - kernel module
 ---
 
+
 # Kernel Module
 
 ## Checksumming
@@ -84,6 +85,19 @@ ps. this code is strange slow at ubuntu 10.04 (kernel 2.6.32)
     
             sudo kedr stop
             dmesg
+
+## Unknown Symbol
+Unknown symbol ip_route_output_flow (err 0)
+
+    cat /proc/kallsyms |grep ip_route_output_flow
+    0000000000000000 T ip_route_output_flow
+    0000000000000000 r __ksymtab_ip_route_output_flow
+    0000000000000000 r __kcrctab_ip_route_output_flow
+    0000000000000000 r __kstrtab_ip_route_output_flow
+
+add
+
+    MODULE_LICENSE("GPL");
 
 ## Reference
 
