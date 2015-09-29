@@ -63,14 +63,14 @@ ps. this code is strange slow at ubuntu 10.04 (kernel 2.6.32)
 
 ### KEDR
 
-Download source 0.4.1 from [offical site](https://code.google.com/p/kedr/)
+Download source 0.5 from [offical site](https://github.com/euspectre/kedr)
 
 Install
 
-        tar jxvf kedr-0.4.1.tar.bz2
+        tar jxvf kedr-0.5.tar.bz2
         mkdir kedr-build
         cd kedr-build
-        cmake ../kedr-0.4.1
+        cmake ../kedr-0.5
         make
         sudo make install
 
