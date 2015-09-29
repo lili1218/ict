@@ -7,6 +7,7 @@ tags:
 ---
 
 
+
 # Kernel Module
 
 ## Checksumming
@@ -62,8 +63,9 @@ ps. this code is strange slow at ubuntu 10.04 (kernel 2.6.32)
 
 ### KEDR
 
-* download source 0.4.1 from [offical site](https://code.google.com/p/kedr/)
-* install
+Download source 0.4.1 from [offical site](https://code.google.com/p/kedr/)
+
+Install
 
         tar jxvf kedr-0.4.1.tar.bz2
         mkdir kedr-build
@@ -71,20 +73,20 @@ ps. this code is strange slow at ubuntu 10.04 (kernel 2.6.32)
         cmake ../kedr-0.4.1
         make
         sudo make install
-        
-* usage
-    * start kedr
+
+#### KEDR Usage
+Start kedr
     
-            sudo kedr start my_module -f leak_check.conf
+        sudo kedr start my_module -f leak_check.conf
             
-    * load kernel module
+ Load kernel module
     
-            sudo insmod my_module.ko
+        sudo insmod my_module.ko
             
-    * stop kedr and see result
+  Stop kedr and see result
     
-            sudo kedr stop
-            dmesg
+        sudo kedr stop
+        dmesg
 
 ## Unknown Symbol
 Unknown symbol ip_route_output_flow (err 0)
