@@ -8,6 +8,7 @@ tags:
 
 
 
+
 # Kernel Module
 
 ## Checksumming
@@ -58,6 +59,11 @@ ps. this code is strange slow at ubuntu 10.04 (kernel 2.6.32)
 
     /* change source ip */
     iph->saddr = newip;
+
+## CONFIG_X86_X32 enabled but no binutils support
+ref. [Compiling error while installing Realtek RTL8111E in 64 bit 13.10. CONFIG_X86_X32 enabled but no binutils support](http://askubuntu.com/questions/367838/compiling-error-while-installing-realtek-rtl8111e-in-64-bit-13-10-config-x86-x)
+
+It seems that one shouldn't have spaces in the folder names
 
 ## Memory Leak Detection
 
