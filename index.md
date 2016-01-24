@@ -7,6 +7,7 @@ title: ICT
 
 
 
+
 {% include JB/setup %}
 
 <form name="cse" id="searchbox" action="/search.html">
@@ -106,6 +107,8 @@ title: ICT
 ## [Github](/web/github)
 
 ## [Google](/web/google)
+
+##[OpenShift](web/openshift)
 
 # Windows
 
