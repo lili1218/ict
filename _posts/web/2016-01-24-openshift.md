@@ -1,6 +1,12 @@
 ---
-published: false
+published: true
+layout: post
+category: web
+tags: 
+  - openshift
+  - redhat
 ---
+
 
 # OpenShift
 
