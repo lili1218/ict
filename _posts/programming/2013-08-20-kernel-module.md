@@ -6,6 +6,9 @@ tags:
   - kernel module
 ---
 
+
+
+
 # Kernel Module
 
 ## Checksumming
@@ -57,33 +60,52 @@ ps. this code is strange slow at ubuntu 10.04 (kernel 2.6.32)
     /* change source ip */
     iph->saddr = newip;
 
+## CONFIG_X86_X32 enabled but no binutils support
+ref. [Compiling error while installing Realtek RTL8111E in 64 bit 13.10. CONFIG_X86_X32 enabled but no binutils support](http://askubuntu.com/questions/367838/compiling-error-while-installing-realtek-rtl8111e-in-64-bit-13-10-config-x86-x)
+
+It seems that one shouldn't have spaces in the folder names
+
 ## Memory Leak Detection
 
 ### KEDR
 
-* download source 0.4.1 from [offical site](https://code.google.com/p/kedr/)
-* install
+Download source 0.5 from [offical site](https://github.com/euspectre/kedr)
 
-        tar jxvf kedr-0.4.1.tar.bz2
+Install
+
+        tar jxvf kedr-0.5.tar.bz2
         mkdir kedr-build
         cd kedr-build
-        cmake ../kedr-0.4.1
+        cmake ../kedr-0.5
         make
         sudo make install
-        
-* usage
-    * start kedr
+
+#### KEDR Usage
+Start kedr
     
-            sudo kedr start my_module -f leak_check.conf
+        sudo kedr start my_module -f leak_check.conf
             
-    * load kernel module
+ Load kernel module
     
-            sudo insmod my_module.ko
+        sudo insmod my_module.ko
             
-    * stop kedr and see result
+  Stop kedr and see result
     
-            sudo kedr stop
-            dmesg
+        sudo kedr stop
+        dmesg
+
+## Unknown Symbol
+Unknown symbol ip_route_output_flow (err 0)
+
+    cat /proc/kallsyms |grep ip_route_output_flow
+    0000000000000000 T ip_route_output_flow
+    0000000000000000 r __ksymtab_ip_route_output_flow
+    0000000000000000 r __kcrctab_ip_route_output_flow
+    0000000000000000 r __kstrtab_ip_route_output_flow
+
+add
+
+    MODULE_LICENSE("GPL");
 
 ## Reference
 

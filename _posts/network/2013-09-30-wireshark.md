@@ -8,6 +8,7 @@ tags:
   - packet
 ---
 
+
 # Wireshark
 
 ## Note
@@ -20,14 +21,17 @@ tags:
 
 ## Prepare
 
-* for Ubuntu
+For Ubuntu
 
-        sudo apt-get install bison flex libgtk2.0-dev libglib2.0-dev libpcap-dev automake autoconf
+    sudo apt-get install bison flex libgtk2.0-dev libglib2.0-dev libpcap-dev automake autoconf libtool
 
-* wireshark 1.10+
+Wireshark 1.10+
 
-        sudo apt-get install libgtk3-dev
-        sudo apt-get install libgtk-3-dev qt-sdk
+    sudo apt-get install libgtk3-dev
+
+or 
+
+    sudo apt-get install libgtk-3-dev qt-sdk
 
 ## Install
 
